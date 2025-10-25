@@ -9,7 +9,11 @@ export default function LoginForm(){
         <Title>Bem vindo ao <span className="text-[#FFD600]">DoaSync!</span></Title>
         <Input placeholder="Informe seu email" type="email"></Input>
         <Input placeholder="Informe sua senha" type="password"></Input>
-        <div className="text-white"> Esqueceu a senha? <span className="text-yellow-400">Clique aqui</span> </div>
+        <div className="text-white "> 
+
+          <p className="text-[12px]">Esqueceu sua senha? <span className="text-[#FFD600]">Clique aqui</span></p>
+
+        </div>
         <Button onClick={() => alert("Bem vindo ao sistema")}>Entrar</Button>
         <p className="text-white">Não tem uma conta? <span className="font-semibold">Cadastre-se</span></p>
     </Layout>
